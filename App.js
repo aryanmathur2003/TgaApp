@@ -4,8 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Testing for React Native</Text>
+    <View style = {styles.container}>
+      <Text >Testing for React Native</Text>
+      <Text style = {styles.loginTop} >Testing changes</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,4 +19,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  loginTop: {
+    textAlign: 'left',
+    color: '#ff0000',
+    marginBottom: 5,
+  },
+
+
 });
